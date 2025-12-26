@@ -6,7 +6,9 @@
   from = "/"
   to = "/index.html"
   status = 200
-  
+
+[[redirects]]
+  # Tüm diğer yolları index.html'e yönlendir (SPA için)
   from = "/*"
   to = "/index.html"
   status = 200
